@@ -18,7 +18,7 @@ App loads meals and details from the given API(#https://fetch-hiring.s3.amazonaw
 ## Screenshots
 label 1 | label 2
 --- | ---
-![](https://...image1.png) | ![](https://...image2.png)
+![]([https://...image1.png](https://github.com/skadithasan19/FetchiOS/assets/6060441/96a83887-d2a1-45ba-bca2-aa350aa13a15)) | ![]([https://...image2.png](https://github.com/skadithasan19/FetchiOS/assets/6060441/757565d4-0d50-4d4f-9e93-fa4e96800d1a))
 <img src="https://github.com/skadithasan19/FetchiOS/assets/6060441/96a83887-d2a1-45ba-bca2-aa350aa13a15" width="200"/> <img src="https://github.com/skadithasan19/FetchiOS/assets/6060441/757565d4-0d50-4d4f-9e93-fa4e96800d1a" width="300"/>
 
 
