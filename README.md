@@ -1,45 +1,20 @@
-# FetchiOS
-
-A brief description of your project.
-
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Features](#features)
-- [Requirements](#requirements)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Introduction
 
-Provide a brief overview of your project. What does it do? Why does it exist?
+App loads meals and details from given apis [API][https://fetch-hiring.s3.amazonaws.com/iOS+coding+exercise.pdf]. tried to follow MVVM architecture and created a network layer using a combine. made two independent service classes for API calls which is extendable. Added some unit tests using mock data
 
 ## Features
 
-List the key features of your project.
+- Load meals for the Dessert category.
+  - Display meal name
+  - Display meal image under meal name
+- Load meal details on selecting each meal on listing page
+  - Display meal name
+  - Display meal instructions
+  - Display ingredients and measures
 
 ## Requirements
 
 Outline any prerequisites or system requirements needed to run the project.
 
-- iOS 12.0+
+- iOS 15.0+
 - Swift 5.0+
-
-## Getting Started
-
-Provide instructions on how to get the project up and running on a local machine. Include any setup steps, dependencies, or configurations.
-
-```bash
-# Clone the repository
-git clone https://github.com/your-username/your-project.git
-
-# Navigate to the project directory
-cd your-project
-
-# Install dependencies
-pod install
-
-# Open the Xcode workspace
-open YourProject.xcworkspace
