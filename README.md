@@ -17,9 +17,7 @@ App loads meals and details from the given API(#https://fetch-hiring.s3.amazonaw
  
 ## Screenshots
 
-label 1 | label 2
---- | ---
-![simulator_screenshot_6BFCDF4D-A908-44C9-8BEC-8781F4D330D2](https://github.com/skadithasan19/FetchiOS/assets/6060441/96a83887-d2a1-45ba-bca2-aa350aa13a15) | ![simulator_screenshot_CA548123-90A9-4C20-A913-053B251B9465](https://github.com/skadithasan19/FetchiOS/assets/6060441/757565d4-0d50-4d4f-9e93-fa4e96800d1a)
+<img src="[https://openclipart.org/image/2400px/svg_to_png/28580/](https://github.com/skadithasan19/FetchiOS/assets/6060441/96a83887-d2a1-45ba-bca2-aa350aa13a15)kablam-Number-Animals-1.png" width="200"/> <img src="[https://openclipart.org/download/71101/two.svg](https://github.com/skadithasan19/FetchiOS/assets/6060441/757565d4-0d50-4d4f-9e93-fa4e96800d1a)" width="300"/>
 
 
 
