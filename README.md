@@ -16,9 +16,11 @@ App loads meals and details from the given API(#https://fetch-hiring.s3.amazonaw
   - Display ingredients and measures
  
 ## Screenshots
-
+Solarized dark             |  Solarized Ocean
+:-------------------------:|:-------------------------:
 ![simulator_screenshot_6BFCDF4D-A908-44C9-8BEC-8781F4D330D2](https://github.com/skadithasan19/FetchiOS/assets/6060441/96a83887-d2a1-45ba-bca2-aa350aa13a15)
-![simulator_screenshot_CA548123-90A9-4C20-A913-053B251B9465](https://github.com/skadithasan19/FetchiOS/assets/6060441/757565d4-0d50-4d4f-9e93-fa4e96800d1a)
+ |  ![simulator_screenshot_CA548123-90A9-4C20-A913-053B251B9465](https://github.com/skadithasan19/FetchiOS/assets/6060441/757565d4-0d50-4d4f-9e93-fa4e96800d1a)
+
 
 ## Requirements
 
