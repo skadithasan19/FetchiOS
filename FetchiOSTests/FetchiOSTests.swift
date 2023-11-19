@@ -9,28 +9,41 @@ import XCTest
 @testable import FetchiOS
 
 final class FetchiOSTests: XCTestCase {
-
+    
+    
+    var mockApiSession: MockApiSession<MealsWrapper, APIError>!
+    var viewModel: MealViewModel?
+    
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        mockApiSession = MockApiSession<MealsWrapper, APIError>()
+        mockApiSession.stub.expectedReturnData = MockData.getMockJSON(fileName: "Meals")
+        viewModel = MealViewModel(apiSession: self.mockApiSession)
     }
-
+    
     override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        mockApiSession = nil
     }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    
+    func test_loadedMeals() {
+        let result = getExpectationWith()
+        if result == XCTWaiter.Result.timedOut {
+            if case .loaded = viewModel?.state {
+                XCTAssertTrue(true)
+            }
+        } else {
+            XCTFail("Delay interrupted")
         }
     }
-
+    
+    func test_loadedMealsCount() {
+        let result = getExpectationWith()
+        if result == XCTWaiter.Result.timedOut {
+            if case .loaded(let mealWrapper) = viewModel?.state {
+                XCTAssert(mealWrapper.meals.count == 64)
+            }
+        } else {
+            XCTFail("Delay interrupted")
+        }
+    }
+    
 }
