@@ -10,7 +10,6 @@ import XCTest
 
 final class FetchiOSTests: XCTestCase {
     
-    
     var mockApiSession: MockApiSession<MealsWrapper, APIError>!
     var viewModel: MealViewModel?
     

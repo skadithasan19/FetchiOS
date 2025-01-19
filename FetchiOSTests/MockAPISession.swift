@@ -14,11 +14,6 @@ enum TestSession {
 }
 
 struct MockApiSession<Output: Decodable, Failure: Error>: APISessionProtocol {
-//    func request<T>(with builder: FetchiOS.RequestBuilder) -> AnyPublisher<T, FetchiOS.APIError> where T : Decodable {
-//        <#code#>
-//    }
-//
-
     class Stub {
         var expectedResult: Result<Output?, APIError> = .success(nil)
         var expectedReturnData: Data!
